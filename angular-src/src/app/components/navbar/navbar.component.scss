@@ -17,15 +17,14 @@ nav{
   }
   #navhome{
     display: none;
-    height: 4.6rem;
-    padding: 1rem 0;
-
+    height: 2.6rem;
+    margin: 1.3rem 0;
   }
-  .dropdown{
+  .navbar{
     float: right;
     button{display: none;}
   }
-  .dropdown-content{
+  .navbar-links{
     position: relative;
     float: right;
   }

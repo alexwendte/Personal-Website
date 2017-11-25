@@ -16,13 +16,13 @@ nav {
     overflow: hidden; }
   nav #navhome {
     display: none;
-    height: 4.6rem;
-    padding: 1rem 0; }
-  nav .dropdown {
+    height: 2.6rem;
+    margin: 1.3rem 0; }
+  nav .navbar {
     float: right; }
-    nav .dropdown button {
+    nav .navbar button {
       display: none; }
-  nav .dropdown-content {
+  nav .navbar-links {
     position: relative;
     float: right; }
   nav .nav-item {
@@ -39,16 +39,16 @@ nav {
   nav {
     padding: 0 1em;
     /*for the dropdown button*/ }
-    nav .dropdown {
+    nav .navbar {
       z-index: 10;
       padding: 1.4rem 0;
       position: absolute;
       top: 0;
       right: 0;
       /* Dropdown Button */ }
-      nav .dropdown button:focus {
+      nav .navbar button:focus {
         outline: 0; }
-      nav .dropdown .dropbtn {
+      nav .navbar .sidenavbtn {
         position: absolute;
         right: 2rem;
         display: block;
@@ -59,18 +59,18 @@ nav {
         border-radius: .7rem;
         cursor: pointer;
         /* Menu Icon */ }
-        nav .dropdown .dropbtn .menu-icon > .line {
+        nav .navbar .sidenavbtn .menu-icon > .line {
           background-color: #fff;
           height: .15rem;
           display: block;
           width: 2.4rem; }
-        nav .dropdown .dropbtn .menu-icon > .line + .line {
+        nav .navbar .sidenavbtn .menu-icon > .line + .line {
           margin-top: 4px; }
-      nav .dropdown .active a {
+      nav .navbar .active a {
         color: rgba(255, 255, 255, 0.5); }
-      nav .dropdown .nav-item a:hover {
+      nav .navbar .nav-item a:hover {
         color: #fff; }
-    nav .dropdown-content {
+    nav .navbar-links {
       display: none;
       position: relative;
       top: 2.5rem;
@@ -91,11 +91,11 @@ nav {
       nav .nav-item a {
         display: block;
         padding: 1em 2em; }
-    nav .dropdown-content a:hover {
+    nav .navbar-links a:hover {
       background-color: #3e3f3a;
       border-radius: 1em; } }
 @media (max-width: 555px) and (min-width: 480px) {
-  nav .dropdown-content .nav-item:nth-child(1) {
+  nav .navbar-links .nav-item:nth-child(1) {
     display: none; } }
 
 /*# sourceMappingURL=navbar.component.css.map */

@@ -2,7 +2,7 @@
 {
   nav{
     padding: 0 1em;
-    .dropdown{
+    .navbar{
       z-index: 10;
       padding: 1.4rem 0;
       position: absolute;
@@ -10,7 +10,7 @@
       right: 0;
       button:focus {outline:0;}
       /* Dropdown Button */
-      .dropbtn {
+      .sidenavbtn {
         position: absolute;
         right: 2rem;
         display: block;
@@ -38,7 +38,7 @@
         color: #fff;
       }
     }
-    .dropdown-content{
+    .navbar-links{
       display: none;
       position: relative;
       top: 2.5rem;
@@ -63,7 +63,7 @@
         padding: 1em 2em;
       }
     }
-    .dropdown-content a:hover{
+    .navbar-links a:hover{
       background-color: rgb(62,63,58);
       border-radius: 1em;
     }
@@ -72,7 +72,7 @@
 @media(max-width: 555px) and (min-width: 480px) 
 {
   nav{
-    .dropdown-content{
+    .navbar-links{
       .nav-item:nth-child(1){
         display: none;
       }

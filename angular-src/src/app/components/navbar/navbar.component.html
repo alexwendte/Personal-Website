@@ -1,15 +1,15 @@
 <nav>
   <a [routerLink]="['/']"><h3 id="navheader">Wendte Digital Solutions</h3></a>
-  <a [routerLink]="['/']"><img id ="navhome" src ="../../../assets/images/home.png"></a>
-  <div class="dropdown">
-    <button id="dropbtn" class="dropbtn" onclick="openNav()">
+  <a class="navhomelink" [routerLink]="['/']"><img id ="navhome" src ="../../../assets/images/home.png"></a>
+  <div class="navbar">
+    <button id="sidenavbtn" class="sidenavbtn" onclick="openNav()">
         <div class="menu-icon">
           <span class="line"></span>
           <span class="line"></span>
           <span class="line"></span>
         </div>
     </button>
-    <ul class="dropdown-content">
+    <ul class="navbar-links">
       <li class="nav-item" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact: true}">
         <a [routerLink]="['/about-me']">About Me</a>
       </li>

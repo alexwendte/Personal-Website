@@ -3,7 +3,7 @@ function openNav() {
   document.getElementById("mySidenav").style.width = "20rem";
   document.getElementById("main").style.marginRight = "20rem";
   document.getElementById("navheader").style.display = "none";
-  document.getElementById("navhome").style.display = "block";
+  document.getElementById("navhome").style.display = "inline-block";
 }
 
 /* Set the width of the side navigation to 0 and the left margin of the page content to 0 */
