@@ -1,3 +1,23 @@
-<p>
-  navbar works!
-</p>
+<nav class>
+  <a [routerLink]="['/']"><h3>Wendte Digital Solutions</h3></a>
+  <div class="dropdown">
+    <button class="dropbtn">
+        <div class="menu-icon">
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+        </div>
+    </button>
+    <ul class="dropdown-content">
+      <li class="nav-item" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact: true}">
+        <a [routerLink]="['/about-me']">About Me</a>
+      </li>
+      <li class="nav-item" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact: true}">
+        <a  [routerLink]="['/projects']">Projects</a>
+      </li>
+      <li class="nav-item" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact: true}">
+          <a  [routerLink]="['contact-me']">Contact Me</a>
+      </li>
+    </ul>
+  </div>
+</nav>

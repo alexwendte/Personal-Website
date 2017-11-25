@@ -1,35 +1,3 @@
-nav {
-  font-size: 1.6rem;
-  background-color: #3e3f3a;
-  width: 100%;
-  height: 5.2rem;
-  border-radius: 3px;
-  position: relative;
-  padding: 0 2em;
-  line-height: 5.2rem;
-  white-space: nowrap; }
-  nav h3 {
-    color: #fff;
-    font-weight: 500;
-    font-size: 2rem;
-    display: inline-block; }
-  nav .dropdown {
-    float: right; }
-    nav .dropdown button {
-      display: none; }
-  nav .dropdown-content {
-    position: relative;
-    float: right; }
-  nav .nav-item {
-    display: inline-block; }
-  nav .nav-item a {
-    color: rgba(255, 255, 255, 0.5);
-    font-size: 1.6rem;
-    padding-left: 1em;
-    font-weight: 500; }
-  nav .active a, nav .nav-item a:hover {
-    color: #fff; }
-
 @media (max-width: 480px) {
   nav {
     padding: 0 1em; }
@@ -95,4 +63,4 @@ nav {
   nav .dropdown-content .nav-item:nth-child(1) {
     display: none; } }
 
-/*# sourceMappingURL=navbar.component.css.map */
+/*# sourceMappingURL=media-query.css.map */
