@@ -1,0 +1,21 @@
+{
+  "name": "personal-website",
+  "version": "1.0.0",
+  "description": "My own professional website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/themostcolm/Personal-Website.git",
+    "start": "node app"
+  },
+  "dependencies": {
+    "express": "*",
+    "cors": "*",
+    "body-parser": "*"
+  },
+  "author": "Phillip Wendte",
+  "license": "ISC"
+}
