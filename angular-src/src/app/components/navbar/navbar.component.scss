@@ -13,6 +13,13 @@ nav{
     font-weight: 500;
     font-size: 2rem;
     display: inline-block;
+    overflow: hidden;
+  }
+  #navhome{
+    display: none;
+    height: 4.6rem;
+    padding: 1rem 0;
+
   }
   .dropdown{
     float: right;
@@ -33,3 +40,4 @@ nav{
 }
 
 @import 'media-query';
+

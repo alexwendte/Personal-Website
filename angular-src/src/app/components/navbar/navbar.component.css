@@ -12,7 +12,12 @@ nav {
     color: #fff;
     font-weight: 500;
     font-size: 2rem;
-    display: inline-block; }
+    display: inline-block;
+    overflow: hidden; }
+  nav #navhome {
+    display: none;
+    height: 4.6rem;
+    padding: 1rem 0; }
   nav .dropdown {
     float: right; }
     nav .dropdown button {
@@ -32,12 +37,12 @@ nav {
 
 @media (max-width: 480px) {
   nav {
-    padding: 0 1em; }
+    padding: 0 1em;
+    /*for the dropdown button*/ }
     nav .dropdown {
       z-index: 10;
       padding: 1.4rem 0;
       position: absolute;
-      width: 7rem;
       top: 0;
       right: 0;
       /* Dropdown Button */ }
@@ -86,8 +91,6 @@ nav {
       nav .nav-item a {
         display: block;
         padding: 1em 2em; }
-    nav .dropdown:hover .dropdown-content {
-      display: block; }
     nav .dropdown-content a:hover {
       background-color: #3e3f3a;
       border-radius: 1em; } }

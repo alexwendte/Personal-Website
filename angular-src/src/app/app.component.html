@@ -1,4 +1,20 @@
-<app-navbar></app-navbar>
-<div class ="container">
-  <router-outlet></router-outlet>
+<ul id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn"
+    onclick="closeNav()">&times;</a>
+    <li class="nav-item" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact: true}">
+      <a [routerLink]="['/about-me']">About Me</a>
+    </li>
+    <li class="nav-item" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact: true}">
+      <a  [routerLink]="['/projects']">Projects</a>
+    </li>
+    <li class="nav-item" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact: true}">
+        <a  [routerLink]="['contact-me']">Contact Me</a>
+    </li>
+</ul>
+
+<div id="main">
+  <app-navbar></app-navbar>
+  <div class ="container">
+    <router-outlet></router-outlet>
+  </div>
 </div>

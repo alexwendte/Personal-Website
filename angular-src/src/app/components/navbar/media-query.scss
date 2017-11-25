@@ -1,8 +1,3 @@
-@media(max-width: 380px)
-{
-
-}
-
 @media(max-width: 480px)
 {
   nav{
@@ -11,7 +6,6 @@
       z-index: 10;
       padding: 1.4rem 0;
       position: absolute;
-      width: 7rem;
       top:0;
       right: 0;
       button:focus {outline:0;}
@@ -48,7 +42,6 @@
       display: none;
       position: relative;
       top: 2.5rem;
-      //margin-right: 1rem;
       float: right;
       background-color: rgba(62,63,58, .9);
       border-radius: .5rem;
@@ -57,6 +50,7 @@
       text-align: center;
       transition: .5s;
     }
+    /*for the dropdown button*/
     .nav-item{
       display: block;
       position: relative;
@@ -68,9 +62,6 @@
         display: block;
         padding: 1em 2em;
       }
-    }
-    .dropdown:hover .dropdown-content{
-        display: block;
     }
     .dropdown-content a:hover{
       background-color: rgb(62,63,58);
