@@ -22,7 +22,7 @@
 }
 
 /* When you mouse over the navigation links, change their color */
-.sidenav a:hover, .offcanvas a:focus{
+.sidenav a:hover, .active a, .offcanvas a:focus{
   color: #f1f1f1;
 }
 

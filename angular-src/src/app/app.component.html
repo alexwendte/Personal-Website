@@ -2,13 +2,16 @@
     <a href="javascript:void(0)" class="closebtn"
     onclick="closeNav()">&times;</a>
     <li class="nav-item" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact: true}">
-      <a [routerLink]="['/about-me']">About Me</a>
+        <a onclick="closeNav()" [routerLink]="['/']">Home</a>
     </li>
     <li class="nav-item" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact: true}">
-      <a  [routerLink]="['/projects']">Projects</a>
+      <a onclick="closeNav()" [routerLink]="['/about-me']">About Me</a>
     </li>
     <li class="nav-item" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact: true}">
-        <a  [routerLink]="['contact-me']">Contact Me</a>
+      <a  onclick="closeNav()" [routerLink]="['/projects']">Projects</a>
+    </li>
+    <li class="nav-item" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact: true}">
+        <a  onclick="closeNav()" [routerLink]="['contact-me']">Contact Me</a>
     </li>
 </ul>
 
